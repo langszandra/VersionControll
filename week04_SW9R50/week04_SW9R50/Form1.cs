@@ -7,9 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Excel = Microsoft.Office.Interop.Excel;
+using System.Reflection;
 
 namespace week04_SW9R50
 {
+
     public partial class Form1 : Form
     {
         RealEstateEntities context = new RealEstateEntities();
