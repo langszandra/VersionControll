@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hazi_vegleges_Sw9r50", "hazi_vegleges_Sw9r50\hazi_vegleges_Sw9r50.csproj", "{50259DD0-4A7E-43BC-9410-9D32DD98C85D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50259DD0-4A7E-43BC-9410-9D32DD98C85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50259DD0-4A7E-43BC-9410-9D32DD98C85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50259DD0-4A7E-43BC-9410-9D32DD98C85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50259DD0-4A7E-43BC-9410-9D32DD98C85D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23F4F099-55CC-462C-811D-58DC48463B13}
+	EndGlobalSection
+EndGlobal
