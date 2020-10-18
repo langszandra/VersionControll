@@ -22,10 +22,11 @@ namespace week06_SW9R50
         {
             InitializeComponent();
             dataGridView1.DataSource = Rates;
-            getExchangeRates();         
-
+            getExchangeRates();
+           
 
         }
+        
         private void getExchangeRates()
         {
             var mnbService = new MNBArfolyamServiceSoapClient();
