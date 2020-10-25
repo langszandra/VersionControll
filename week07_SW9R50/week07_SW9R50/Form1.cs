@@ -79,7 +79,7 @@ namespace week07_SW9R50
             // Halál kezelése
             // Halálozási valószínűség kikeresése
             double pDeath = (from x in DeathProbabilities
-                             where x.Gender == person.Gender && x.Age == age
+                             where x.Gender == person.Gender && x.age == age
                              select x.P).FirstOrDefault();
             // Meghal a személy?
             if (rng.NextDouble() <= pDeath)
@@ -104,5 +104,14 @@ namespace week07_SW9R50
             }
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

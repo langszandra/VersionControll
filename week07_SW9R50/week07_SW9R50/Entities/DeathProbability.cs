@@ -11,6 +11,6 @@ namespace week07_SW9R50.Entities
         public Gender Gender { get; set; }
         public int age { get; set; }
 
-        public double deathprobability { get; set; }
+        public double P { get; set; }
     }
 }

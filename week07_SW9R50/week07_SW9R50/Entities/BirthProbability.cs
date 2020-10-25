@@ -8,8 +8,8 @@ namespace week07_SW9R50.Entities
 {
     public class BirthProbability
     {
-        public int age { get; set; }
-        public int children { get; set; }
-        public double probability { get; set; }
+        public int Age { get; set; }
+        public int Children { get; set; }
+        public double P { get; set; }
     }
 }
