@@ -8,9 +8,9 @@ namespace SW9R50_week08.Entities
 {
     public class BallFactory
     {
-        public Ball CreateNew()
+        public Toy CreateNew()
         {
-            return new Ball();
+            return new Toy();
         }
     }
 }

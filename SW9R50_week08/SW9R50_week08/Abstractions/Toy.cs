@@ -6,19 +6,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
- namespace SW9R50_week08.Entities
+namespace SW9R50_week08.Abstractions
 {
-    public class Toy : Label
+    public abstract class Toy : Label
     {
         public Toy()
         {
             AutoSize = false;
             Height = 50;
             Width = 50;
-            Paint += Ball_Paint;
+            Paint += Toy_Paint;
         }
 
-        private void Ball_Paint(object sender, PaintEventArgs e)
+        private void Toy_Paint(object sender, PaintEventArgs e)
         {
             DrawImage(e.Graphics);
         }
@@ -26,7 +26,7 @@ using System.Windows.Forms;
         {
             g.FillEllipse(new SolidBrush(Color.Blue), 0, 0, Width, Height);
         }
-        public void MoveBall()
+        public void MoveToy()
         {
             Left += 1;
         }
