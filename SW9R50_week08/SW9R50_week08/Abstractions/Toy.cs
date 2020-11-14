@@ -13,8 +13,8 @@ namespace SW9R50_week08.Abstractions
         public Toy()
         {
             AutoSize = false;
-            Height = 50;
             Width = 50;
+            Height = Width;
             Paint += Toy_Paint;
         }
 
@@ -22,11 +22,10 @@ namespace SW9R50_week08.Abstractions
         {
             DrawImage(e.Graphics);
         }
-        protected void DrawImage(Graphics g)
-        {
-            g.FillEllipse(new SolidBrush(Color.Blue), 0, 0, Width, Height);
-        }
-        public void MoveToy()
+
+        protected abstract void DrawImage(Graphics g);
+
+        public virtual void MoveToy()
         {
             Left += 1;
         }
